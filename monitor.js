@@ -21,6 +21,6 @@ console.log('\nMonitor launching via:'.cyan, category.cyan + '\n');
       if (err) {
           console.log(err.red);
       } else if (keywords == supremeitem) {
-        console.log('Product found!\n'.green + "\nProduct name: ".white.bgGreen + product.title.white.bgGreen )
+        console.log('Product found!\n'.green + "\nProduct name: ".black.bgGreen + product.title.black.bgGreen )
       }
     });
